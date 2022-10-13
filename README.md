@@ -12,14 +12,17 @@ Projeto construido do evento Ignite Lab da Rocketseat.
 
 [🔗 Figma](https://www.figma.com/file/2OcJaL0ooGywKrjFXqJVem/Ignite-Lab-Desing-System)
 
-## Tecnologias
 
-- React
-- Type Script
-- Storybook
-- Tailwind
-- Figma
-- GIT E GITHUB
+## 🧪 Technologies
+
+This project was developed using the following technologies:
+
+- [ReactJS](https://reactjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Figma](https://figma.com)
+- [Storybook](https://storybook.js.org/)
+- [Vite](https://vitejs.dev/)
+- [RadixUI](https://www.radix-ui.com/)
 
 ## Contato
 
