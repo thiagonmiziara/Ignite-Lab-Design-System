@@ -5,17 +5,22 @@ import { clsx } from "clsx";
 export interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
   asChild?: boolean;
+  className?: string;
 }
 
-export function Button({ children, asChild, ...props }: IButtonProps) {
+export function Button(props: IButtonProps) {
+  const { children, asChild, className, ...rest } = props;
   const Comp = asChild ? Slot : "button";
 
   return (
     <Comp
       className={clsx(
-        "py-4 px-3 bg-cyan-500 rounded font-semibold text-black text-sm w-full hover:bg-cyan-300 transition-colors focus:ring-2 ring-white"
+        "py-3 px-4 bg-cyan-500 rounded font-semibold text-black text-sm w-full hover:bg-cyan-300 transition-colors focus:ring-2 ring-white",
+        {
+          className,
+        }
       )}
-      {...props}
+      {...rest}
     >
       {children}
     </Comp>
