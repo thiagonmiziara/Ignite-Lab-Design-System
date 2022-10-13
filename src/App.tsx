@@ -1,4 +1,3 @@
-import { Checkbox } from "@radix-ui/react-checkbox";
 import { Envelope, Lock } from "phosphor-react";
 import { Button } from "./components/Button";
 import { Heading } from "./components/Heading";
@@ -6,6 +5,7 @@ import { TextInput } from "./components/TextInput";
 import { Text } from "./components/Text";
 import "./styles/global.css";
 import { Logo } from "./Logo";
+import { Checkbox } from "./components/Checkbox";
 
 export function App() {
   return (
