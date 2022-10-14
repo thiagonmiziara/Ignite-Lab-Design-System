@@ -25,6 +25,7 @@ This project was developed using the following technologies:
 - [Storybook](https://storybook.js.org/)
 - [Vite](https://vitejs.dev/)
 - [RadixUI](https://www.radix-ui.com/)
+- [msw](https://mswjs.io/docs/getting-started/install)
 
 ## 🚀 Getting started
 
